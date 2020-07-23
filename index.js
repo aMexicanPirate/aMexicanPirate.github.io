@@ -9,6 +9,6 @@ let interval = setInterval(function () {
     }
     if (i == 0) {
         clearInterval(interval);
-        document.getElementById("test bomb").src = "bomb go explosion.png"
+        document.getElementById("test bomb").src = "Bomb go explosion.jpg";
     }
 }, 1000)
