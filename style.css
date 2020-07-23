@@ -1,0 +1,16 @@
+body {
+    background-color: black; 
+    text-align: center;
+    color: red;
+    border:solid red;
+    border-width: 5px;
+}
+img {
+    width: 400px;
+}
+
+#hint {
+    display: none;
+    text-align: right;
+    margin: 5px;
+}
