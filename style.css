@@ -5,12 +5,9 @@ body {
     border:solid red;
     border-width: 5px;
 }
-img {
-<<<<<<< HEAD
-    width: 300px;
-=======
-    width: 400;
->>>>>>> 58227f6fa403d1509a8aa854dd77ca2408414a5d
+img { 
+     width: 50%;
+    height: auto;
 }
 
 #hint {
