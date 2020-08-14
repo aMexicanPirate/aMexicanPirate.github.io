@@ -1,6 +1,6 @@
 setTimeout(function () { document.getElementById("no").style.display = 'block'; }, 2500);
 
-let i = 22;
+let i = 32;
 let interval = setInterval(function () {
     i--;
     document.getElementById("BOOM").innerHTML = i;
