@@ -12,3 +12,16 @@ let interval = setInterval(function () {
         document.getElementById("test bomb").src = "Bomb go explosion.jpg";
     }
 }, 1000)
+
+
+
+ function checkPin(){
+     let i=document.getElementById("pin_input").value;
+     const pin=696969;
+     if (i==pin) {
+         clearInterval(interval);
+          document.getElementById("youDidntDie").innerHTML="Success!";
+     }
+     return false;
+ }
+
