@@ -4,7 +4,7 @@ let i = 32;
 let interval = setInterval(function () {
     i--;
     document.getElementById("BOOM").innerHTML = i;
-    if (i == 15) {
+    if (i == 20) {
         document.getElementById("hint").style.display = 'block'; 
     }
     if (i == 0) {
@@ -17,7 +17,7 @@ let interval = setInterval(function () {
 
  function checkPin(){
      let i=document.getElementById("pin_input").value;
-     const pin=696969;
+     const pin=23820;
      if (i==pin) {
          clearInterval(interval);
           document.getElementById("youDidntDie").innerHTML="Success!";
